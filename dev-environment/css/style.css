@@ -3616,7 +3616,7 @@ body.no-superfish #primary-menu li:hover > ul:not(.mega-menu-column) {
 /* line 464, ../scss/_header.scss */
 #primary-menu ul ul > li.sub-menu > a,
 #primary-menu ul ul > li.sub-menu:hover > a {
-  background-image: url("images/icons/submenu.png");
+  background-image: url("../images/icons/submenu.png");
   background-position: right center;
   background-repeat: no-repeat;
 }
@@ -3946,7 +3946,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 /* line 739, ../scss/_header.scss */
 #primary-menu.sub-title > ul > li,
 #primary-menu.sub-title.style-2 > div > ul > li {
-  background: url("images/icons/menu-divider.png") no-repeat right center;
+  background: url("../images/icons/menu-divider.png") no-repeat right center;
   margin-left: 1px;
 }
 
@@ -5632,7 +5632,7 @@ body.side-panel-open .body-overlay {
 
 /* line 2142, ../scss/_header.scss */
 body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-overlay:hover {
-  cursor: url("images/icons/close.png") 15 15, default;
+  cursor: url("../images/icons/close.png") 15 15, default;
 }
 
 /* ----------------------------------------------------------------
@@ -6342,7 +6342,7 @@ body:not(.device-touch) #gotoTop {
 
 /* line 425, ../scss/_footer.scss */
 .widget_links li a {
-  background: url("images/icons/widget-link.png") left top no-repeat;
+  background: url("../images/icons/widget-link.png") left top no-repeat;
   border: none !important;
   color: #444;
   font-size: 14px;
@@ -6422,7 +6422,7 @@ body:not(.device-touch) #gotoTop {
 /* line 475, ../scss/_footer.scss */
 .dark .widget_links li a {
   color: #CCC;
-  background-image: url("images/icons/widget-link-dark.png");
+  background-image: url("../images/icons/widget-link-dark.png");
 }
 
 /* line 480, ../scss/_footer.scss */
@@ -14792,7 +14792,7 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: url('/images/images/pattern2.png') repeat;
+  background: url('/images/../images/pattern2.png?1500673733') repeat;
 }
 
 /* line 331, ../scss/_component/_sliders.scss */
@@ -14935,7 +14935,7 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
   top: 0;
   left: 0;
   z-index: 5;
-  background: transparent url('/images/images/grid.png') repeat;
+  background: transparent url('/images/../images/grid.png?1500673733') repeat;
   -webkit-backface-visibility: hidden;
 }
 
@@ -16406,7 +16406,7 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
   padding: 2px;
   z-index: -1;
   box-shadow: none;
-  background-image: url("images/icons/iconalt.svg");
+  background-image: url("../images/icons/iconalt.svg");
   background-position: center center;
   background-size: 100% 100%;
   transition: opacity 0.5s, background-color 0.5s;
@@ -16652,7 +16652,7 @@ body:not(.device-touch) .social-icon {
 
 /* line 75, ../scss/_component/_styled-icons.scss */
 .i-alt {
-  background-image: url("images/icons/iconalt.svg");
+  background-image: url("../images/icons/iconalt.svg");
   background-position: center center;
   background-size: 100% 100%;
 }
@@ -16818,7 +16818,7 @@ body:not(.device-touch) .social-icon {
   top: 0;
   left: 0;
   text-align: center;
-  background: rgba(0, 0, 0, 0.2) url("images/grid.png") repeat;
+  background: rgba(0, 0, 0, 0.2) url("../images/grid.png") repeat;
 }
 
 /* line 221, ../scss/_component/_styled-icons.scss */
