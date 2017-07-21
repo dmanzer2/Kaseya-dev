@@ -160,11 +160,6 @@
 		margin-bottom: 10px;
 }
 
-#content .promo.promo-full {
-	background-color: #fafafa;
-	border-top: solid 1px #eceff1;
-}
-
 #copyrights, #copyrights a {
 	color: #496682 !important;
 }
@@ -428,7 +423,7 @@ body:not(.device-touch) #gotoTop {
 }
 
 .widget_links li a {
-		background: url("/HTML/images/icons/widget-link.png") left top no-repeat;
+		background: url("images/icons/widget-link.png") left top no-repeat;
 		border: none !important;
 		color: #444;
 		font-size: 14px;
@@ -479,7 +474,7 @@ body:not(.device-touch) #gotoTop {
 
 .dark .widget_links li a {
 	color: #CCC;
-	background-image: url("/HTML/images/icons/widget-link-dark.png");
+	background-image: url("images/icons/widget-link-dark.png");
 }
 
 .dark .widget_links li a:hover  { color: #AAA; }

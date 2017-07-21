@@ -463,7 +463,7 @@ body.no-superfish #primary-menu li:hover > ul:not(.mega-menu-column) {
 
 #primary-menu ul ul > li.sub-menu > a,
 #primary-menu ul ul > li.sub-menu:hover > a {
-	background-image: url("/HTML/images/icons/submenu.png");
+	background-image: url("images/icons/submenu.png");
 	background-position: right center;
 	background-repeat: no-repeat;
 }
@@ -738,7 +738,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 -----------------------------------------------------------------*/
 #primary-menu.sub-title > ul > li,
 #primary-menu.sub-title.style-2 > div > ul > li {
-	background: url("/HTML/images/icons/menu-divider.png") no-repeat right center;
+	background: url("images/icons/menu-divider.png") no-repeat right center;
 	margin-left: 1px;
 }
 
@@ -2140,5 +2140,5 @@ body.side-panel-open .body-overlay {
 }
 
 body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-overlay:hover {
-	cursor: url('/HTML/images/icons/close.png') 15 15, default;
+	cursor: url('images/icons/close.png') 15 15, default;
 }
