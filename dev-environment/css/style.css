@@ -6430,6 +6430,17 @@ body:not(.device-touch) #gotoTop {
   color: #AAA;
 }
 
+/* line 482, ../scss/_footer.scss */
+.col-md-3.col-xs-6.bottommargin-sm.widget_links {
+  min-height: 235px;
+}
+
+@media (max-width: 320px) {
+  /* line 487, ../scss/_footer.scss */
+  .footer-soc-widget.clearfix > div > div > a > i {
+    padding: 0 18px !important;
+  }
+}
 /* ----------------------------------------------------------------
 	Responsive CSS
 -----------------------------------------------------------------*/

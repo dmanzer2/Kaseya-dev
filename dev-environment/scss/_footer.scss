@@ -478,3 +478,13 @@ body:not(.device-touch) #gotoTop {
 }
 
 .dark .widget_links li a:hover  { color: #AAA; }
+
+.col-md-3.col-xs-6.bottommargin-sm.widget_links {
+	min-height: 235px;
+}
+
+@media (max-width: 320px) {
+.footer-soc-widget.clearfix > div > div > a > i {
+	padding: 0 18px !important;
+}
+}
