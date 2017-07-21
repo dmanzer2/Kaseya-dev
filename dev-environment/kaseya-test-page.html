@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="SemiColonWeb" />
+
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+
+	<!-- styles that come with canvas -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" />
+	<!-- New base css * Plus Components -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+	<title>Canvas | The Multi-Purpose HTML5 Template</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Top Bar
+	============================================= -->
+	<div id="top-bar" class="hidden-xs hidden-sm hidden-md">
+
+		<div class="col_half nobottommargin col-sm-offset-2">
+			<p class="nobottommargin">
+				<button type="button" class="btn btn-danger btn-sm breaking-news">
+				Breaking News:
+			</button> VSA 9.4 release scheduled for DEC. 5th, 2016.  Get more details <a href="#" class="feed-link">here...</a>
+		</div>
+
+		<div class="col_half col_last fright nobottommargin">
+
+			<!-- Top Links
+			============================================= -->
+			<div class="top-links">
+				<ul>
+					<li>
+						<a href="#" class="social-icon si-borderless si-facebook" title="Facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-icon si-borderless si-twitter" title="Twitter">
+							<i class="icon-twitter"></i>
+							<i class="icon-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-icon si-borderless si-youtube" title="Youtube">
+							<i class="icon-youtube"></i>
+							<i class="icon-youtube"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-icon si-borderless si-gplus" title="Google Plus">
+							<i class="icon-gplus"></i>
+							<i class="icon-gplus"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-icon si-borderless si-linkedin" title="LinkedIn">
+							<i class="icon-linkedin"></i>
+							<i class="icon-linkedin"></i>
+						</a>
+					</li>
+
+					<li><a href="#">EN</a>
+						<ul>
+							<li><a href="#"><img src="/HTML/images/icons/flags/german.png" alt="German"> DE</a></li>
+							<li><a href="#"><img src="/HTML/images/icons/flags/italian.png" alt="Italian"> IT</a></li>
+							<li><a href="#"><img src="/HTML/images/icons/flags/french.png" alt="French"> FR</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</div><!-- .top-links end -->
+
+		</div>
+	</div><!-- #top-bar end -->
+
+	<!-- Document Wrapper -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="/" class="standard-logo" data-dark-logo="/HTML/images/logo/kaseya-logo.png"><img src="/HTML/images/logo/kaseya-logo.png" alt="Kaseya Logo"></a>
+						<a href="/" class="retina-logo" data-dark-logo="/HTML/images/logo/kaseya-logo@2x.png"><img src="/HTML/images/logo/kaseya-logo@2x.png" alt="Kaseya Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="sub-title">
+
+						<ul>
+							<li class="mega-menu"><a href="#"><div>Products</div><span>Start Here</span></a>
+								<div class="mega-menu-content style-2 clearfix">
+									<ul class="mega-menu-column col-md-4">
+										<a href="#"><img src="/HTML/images/nav-imgs/400x220.png" class="img-responsive hidden-sm"></a>
+									</ul>
+									<ul class="mega-menu-column col-md-4 no-nav-border">
+										<ul>
+											<li class="mega-menu-product-title"><a href="#"><div>Kaseya VSA</div><span>IT Systems Management</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Kaseya BMS</div><span>Business Management Solution</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Kaseya AuthAnvil</div><span>Identity & Access Management</span></a></li>
+										</ul>
+									</ul>
+									<ul class="mega-menu-column col-md-4">
+										<ul>
+											<li class="mega-menu-product-title"><a href="#"><div>Kaseya Traverse</div><span>Cloud Monitoring & Management</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Kaseya 365 Command</div><span>Microsoft Online Services Administration</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Pricing</div></a></li>
+										</ul>
+									</ul>
+								</div>
+							</li>
+
+							<li class="mega-menu"><a href="#"><div>IT Complete</div><span>Solutions for Your Business</span></a>
+								<div class="mega-menu-content style-2 row">
+
+									<div class="col-md-6 col-xs-12 left-col">
+
+										<ul class="col-md-2 mega-menu-column hidden-xs">
+											<a href="#"><img src="/HTML/images/nav-imgs/250x220.png" class="img-responsive hidden-sm"></a>
+										</ul>
+
+										<ul class="col-md-4 col-xs-12 mega-menu-column">
+											<li class="mega-menu-title">IT Complete for MSPS</li>
+											<li><a href="#"><div>Remote Monitoring &amp; Management</div></a></li>
+											<li><a href="#"><div>Professional Services Automation</div></a></li>
+											<li><a href="#"><div>Network Montoring As A Service</div></a></li>
+											<li><a href="#"><div>Security As A Service</div></a></li>
+											<li><a href="#"><div>Accelerate Your MSP</div></a></li>
+										</ul>
+
+										<ul class="col-md-2 mega-menu-column hidden-xs">
+											<a href="#"><img src="/HTML/images/nav-imgs/250x220.png" class="img-responsive hidden-sm"></a>
+										</ul>
+
+										<ul class="col-md-4 col-xs-12 mega-menu-column">
+											<li class="mega-menu-title">IT Complete for IT Departments</li>
+											<li><a href="#"><div>Enpoint Management</div></a></li>
+											<li><a href="#"><div>Help Desk &amp; Project Management</div></a></li>
+											<li><a href="#"><div>Network Performance Monitoring</div></a></li>
+											<li><a href="#"><div>Security &amp; Access Management</div></a></li>
+											<li><a href="#"><div>Accelerate Your IT</div></a></li>
+										</ul>
+
+									</div>
+
+									<div class="col-md-6 col-xs-12 mega-menu-column right-col">
+
+										<div class="row no-pad">
+											<ul class="mega-menu-column p-b-p-l-0">
+												<li class="mega-menu-title">IT Complete for IT Departments</li>
+											</ul>
+										</div>
+
+										<div class="row no-pad">
+											<ul class="mega-menu-column col-md-6 col-xs-12 no-pad">
+												<li><a href="#"><div>Enpoint Management</div></a></li>
+												<li><a href="#"><div>Help Desk &amp; Project Management</div></a></li>
+												<li><a href="#"><div>Network Performance Monitoring</div></a></li>
+												<li><a href="#"><div>Security &amp; Access Management</div></a></li>
+												<li><a href="#"><div>Accelerate Your IT</div></a></li>
+												<li>
+											</ul>
+
+											<div class="col-md-6 col-xs-12 mega-menu-column inner-r-cols">
+												<div class="row no-pad">
+													<ul class="mega-menu-column col-md-12 pad-left">
+														<li class="mega-menu-title">Industries</li>
+													</ul>
+												</div>
+												<div class="row no-pad">
+													<ul class="mega-menu-column col-md-6 col-xs-12 pad-top">
+														<li><a href="#"><div>Education</div></a></li>
+														<li><a href="#"><div>Higher Ed</div></a></li>
+														<li><a href="#"><div>Finace</div></a></li>
+													</ul>
+													<ul class="mega-menu-column col-md-6 col-xs-12 pad-top-bdr">
+														<li><a href="#"><div>Healthcare</div></a></li>
+														<li><a href="#"><div>Hospitality</div></a></li>
+														<li><a href="#"><div>Retail</div></a></li>
+													</ul>
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</li>
+
+							<li class="mega-menu"><a href="#"><div>Customer Success</div><span>Services & Training</span></a>
+								<div class="mega-menu-content style-2 clearfix">
+									<ul class="mega-menu-column col-md-2">
+										<a href="#"><img src="/HTML/images/nav-imgs/250x220.png" class="img-responsive hidden-sm"></a>
+									</ul>
+									<ul class="mega-menu-column col-md-2 no-nav-border">
+									<li class="mega-menu-title">Professional Services</li>
+										<li><a href="#"><div>Implementation</div></a></li>
+										<li><a href="#"><div>Consulting</div></a></li>
+										<li><a href="#"><div>IT Services</div></a></li>
+									</ul>
+									<ul class="mega-menu-column col-md-2">
+										<a href="#"><img src="/HTML/images/nav-imgs/250x220.png" class="img-responsive hidden-sm"></a>
+									</ul>
+									<ul class="mega-menu-column col-md-2 no-nav-border">
+									<li class="mega-menu-title">Training</li>
+										<li><a href="#"><div>Learning Center</div></a></li>
+										<li><a href="#"><div>Certifications</div></a></li>
+										<li><a href="#"><div>Subscriptions</div></a></li>
+									</ul>
+									<ul class="mega-menu-column col-md-4">
+										<ul>
+											<li class="mega-menu-product-title"><a href="#"><div>Partner Alliance</div><span>Partner apps and add-ons</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Kaseya Community <i class="icon-external-link"></i></div><span>A rich network of users</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Knowledgebase <i class="icon-external-link"></i></div><span>A wealth of technical articles</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Support <i class="icon-external-link"></i></div><span>Help when you need it</span></a></li>
+										</ul>
+									</ul>
+								</div>
+							</li>
+
+							<li class="mega-menu"><a href="#"><div>Accelerate</div><span>Resources for IT</span></a>
+								<div class="mega-menu-content style-2 clearfix">
+									<ul class="mega-menu-column col-md-2">
+										<a href="#"><img src="/HTML/images/nav-imgs/190x220.png" class="img-responsive hidden-sm"></a>
+									</ul>
+									<ul class="mega-menu-column col-md-2 no-nav-border">
+									<li class="mega-menu-title">Accelerate Online</li>
+										<li><a href="#"><div>Ebook</div></a></li>
+										<li><a href="#"><div>Whitepapers</div></a></li>
+										<li><a href="#"><div>On-Demand Webinars</div></a></li>
+										<li><a href="#"><div>Kaseya Community <i class="icon-external-link"></i></div></a></li>
+										<li><a href="#"><div>Kaseya University <i class="icon-external-link"></i></div></a></li>
+									</ul>
+									<ul class="mega-menu-column col-md-2">
+										<a href="#"><img src="/HTML/images/nav-imgs/190x220.png" class="img-responsive hidden-sm"></a>
+									</ul>
+									<ul class="mega-menu-column col-md-2 no-nav-border">
+										<li class="mega-menu-title">Accelerate Live</li>
+											<li><a href="#"><div>In the city</div></a></li>
+											<li><a href="#"><div>Industry Events</div></a></li>
+											<li><a href="#"><div>Live Webinars</div></a></li>
+											<li><a href="#"><div>Kaseya Connect <i class="icon-external-link"></i></div></a></li>
+									</ul>
+									<ul class="mega-menu-column col-md-2">
+										<ul>
+											<li class="mega-menu-product-title"><a href="#"><div>Automation Exchange</div><span>Some fancy text</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Partner Alliance</div><span>Some fancy text</span></a></li>
+											<li class="mega-menu-product-title"><a href="#"><div>Product Catalogs</div><span>Some fancy text</span></a></li>
+										</ul>
+									</ul>
+									<ul class="mega-menu-column col-md-2">
+										<li class="mega-menu-title">Blogs</li>
+											<li><a href="#"><div>Kaseya</div></a></li>
+											<li><a href="#"><div>AuthAnvil <i class="icon-external-link"></i></div></a></li>
+											<li><a href="#"><div>365 Command <i class="icon-external-link"></i></div></a></li>
+											<li><a href="#"><div>Vorex <i class="icon-external-link"></i></div></a></li>
+									</ul>
+								</div>
+							</li>
+
+							<li class="mega-menu"><a href="#"><div>Company</div><span>About Kaseya</span></a>
+								<div class="mega-menu-content style-2 clearfix">
+									<ul class="mega-menu-column col-md-3">
+										<a href="#"><img src="/HTML/images/nav-imgs/350x220.png" class="img-responsive hidden-sm"></a>
+									</ul>
+									<ul class="mega-menu-column col-md-3 no-nav-border">
+										<li class="mega-menu-title">About Kaseya</li>
+											<li><a href="#"><div>Leadership Team</div></a></li>
+											<li><a href="#"><div>Legal</div></a></li>
+											<li><a href="#"><div>Case Studies</div></a></li>
+											<li><a href="#"><div>Careers</div></a></li>
+											<li><a href="#"><div>Contact Us</div></a></li>
+									</ul>
+									<ul class="mega-menu-column col-md-3">
+										<a href="#"><img src="/HTML/images/nav-imgs/350x220.png" class="img-responsive hidden-sm"></a>
+									</ul>
+									<ul class="mega-menu-column col-md-3 no-nav-border">
+										<li class="mega-menu-title">Pressroom</li>
+										<li><a href="#"><div>Press Releases</div></a></li>
+										<li><a href="#"><div>In The News</div></a></li>
+										<li><a href="#"><div>Our Awards</div></a></li>
+										<li><a href="#"><div>The Kaseya Brand</div></a></li>
+										<li><a href="#"><div>Frequently Asked Questions</div></a></li>
+									</ul>
+								</div>
+							</li>
+
+						</ul>
+
+						<a href="#" class="button button-3d button-large button-rounded button-amber lets-talk-btn"><i class="icon-comments-alt"></i> Let's Talk</a>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+
+
+
+
+		<!-- Hero -->
+		<section id="slider" class="slider-parallax full-screen" style="background: #2E3B4C;">
+			<div class="slider-parallax-inner">
+
+				<div class="full-screen" style="background: url('/HTML/images/appshowcase/1.jpg'); background-size: cover;">
+					<div class="container clearfix">
+
+						<!-- Option to remove or change sides -->
+						<img src="/HTML/images/appshowcase/slider-iphone.png" alt="Image" class="hidden-sm hidden-xs hero-img" style="position: absolute; left: 0; bottom: 0;" data-height-md="450">
+
+						<!-- Option to change sides or center -->
+						<div class="vertical-middle no-fade">
+							<div class="col-md-6 dark fright nobottommargin" data-animate="fadeIn">
+								<div class="emphasis-title">
+									<h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+								</div>
+								<div class="hidden-xs">
+									<a href="#" class="button button-desc button-border button-light button-rounded nomargin"><i class="icon-apple"></i><div>Learn More<span>30-Days &amp; No Credit card Required</span></div></a>
+								</div>
+								<div class="visible-xs">
+									<a href="#" class="button button-light button-xlarge button-rounded nomargin"><i class="icon-apple"></i>Learn More</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+		<!-- Content -->
+		<section id="content">
+
+			<div class="content-wrap" style="background:#fff;">
+
+				<div class="container clearfix">
+					<div class="row topmargin bottommargin-sm">
+						<div class="heading-block center">
+							<h2>Even more Feature Rich</h2>
+							<span class="divcenter">Philanthropy convener livelihoods, initiative end hunger gender rights local. John Lennon storytelling; advocate, altruism impact catalyst.</span>
+						</div>
+						<div class="col-md-4 col-sm-6 bottommargin">
+							<div class="feature-box fbox-right topmargin fadeIn animated" data-animate="fadeIn">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-heart"></i></a>
+								</div>
+								<h3>Boxed &amp; Wide Layouts</h3>
+								<p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
+							</div>
+							<div class="feature-box fbox-right topmargin fadeIn animated" data-animate="fadeIn" data-delay="200">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-paper"></i></a>
+								</div>
+								<h3>Extensive Documentation</h3>
+								<p>We have covered each &amp; everything in our Docs including Videos &amp; Screenshots.</p>
+							</div>
+							<div class="feature-box fbox-right topmargin fadeIn animated" data-animate="fadeIn" data-delay="400">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-layers"></i></a>
+								</div>
+								<h3>Parallax Support</h3>
+								<p>Display your Content attractively using Parallax Sections with HTML5 Videos.</p>
+							</div>
+						</div>
+						<div class="col-md-4 hidden-sm bottommargin center">
+							<img src="/HTML/images/services/iphone7.png" alt="iphone 2">
+						</div>
+						<div class="col-md-4 col-sm-6 bottommargin">
+							<div class="feature-box topmargin fadeIn animated" data-animate="fadeIn">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-power"></i></a>
+								</div>
+								<h3>HTML5 Video</h3>
+								<p>Canvas provides support for Native HTML5 Videos that can be added to a Background.</p>
+							</div>
+							<div class="feature-box topmargin fadeIn animated" data-animate="fadeIn" data-delay="200">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-check"></i></a>
+								</div>
+								<h3>Endless Possibilities</h3>
+								<p>Complete control on each &amp; every element that provides endless customization.</p>
+							</div>
+							<div class="feature-box topmargin fadeIn animated" data-animate="fadeIn" data-delay="400">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-bulb"></i></a>
+								</div>
+								<h3>Light &amp; Dark Color Schemes</h3>
+								<p>Change your Website's Primary Scheme instantly by simply adding the dark class.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section topmargin-sm bottommargin-lg" style="padding-bottom: 20px;">
+					<div class="container clearfix">
+
+						<div class="col_one_third">
+							<div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-monitor"></i></a>
+								</div>
+								<h3>Responsive Layout</h3>
+								<p>Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
+							</div>
+							<a href="#" class="button button-3d button-small button-rounded" style="margin: 20px 0 0 0;">Aqua</a>
+						</div>
+						<div class="col_one_third">
+							<div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn" data-delay="200">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-eye"></i></a>
+								</div>
+								<h3>Retina Ready Graphics</h3>
+								<p>Looks beautiful &amp; ultra-sharp on Retina Displays with Retina Icons, Fonts &amp; Images.</p>
+							</div>
+							<a href="#" class="button button-3d button-small button-rounded" style="margin: 20px 0 0 0;">Aqua</a>
+						</div>
+						<div class="col_one_third col_last">
+							<div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn" data-delay="400">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-star"></i></a>
+								</div>
+								<h3>Powerful Performance</h3>
+								<p>Optimized code that are completely customizable and deliver unmatched fast performance.</p>
+							</div>
+							<a href="#" class="button button-3d button-small button-rounded" style="margin: 20px 0 0 0;">Aqua</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+
+
+				<div class="container clearfix">
+					<div class="col_three_fifth topmargin-sm bottommargin">
+						<img data-animate="fadeInLeftBig" src="/HTML/images/services/imac.png" alt="Imac" class="center-block fadeInLeftBig animated">
+					</div>
+					<div class="col_two_fifth topmargin-sm bottommargin-lg col_last">
+						<div class="heading-block">
+							<h2>Retina Device Ready.</h2>
+							<span>Fabulously Sharp &amp; Intuitive on your HD Devices.</span>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt, nobis quae eos provident quidem. Quaerat expedita dignissimos perferendis, nihil quo distinctio eius architecto reprehenderit maiores.</p>
+						<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
+					</div>
+				</div>
+
+				<div class="container clearfix">
+						<div class="col_half nobottommargin topmargin-lg">
+							<img src="/HTML/images/appshowcase/iphone-solid.png" alt="Image" class="center-block">
+						</div>
+
+						<div class="col_half nobottommargin topmargin-lg col_last">
+							<div class="heading-block topmargin-lg">
+								<h2>Typically Responsive</h2>
+								<span>Our App scales beautifully to different Devices.</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet cumque, perferendis accusamus porro illo exercitationem molestias, inventore obcaecati ut omnis voluptatibus ratione odio amet magnam quidem tempore necessitatibus quaerat, voluptates excepturi voluptatem, veritatis qui temporibus.</p>
+							<a href="#" class="button button-border button-rounded button-large button-dark noleftmargin">View Gallery</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="section">
+					<div class="container clear-bottommargin clearfix">
+						<div class="heading-block center">
+							<h2>Features List.</h2>
+							<span>We provide a wide array of Usable &amp; Flexible Features</span>
+						</div>
+						<div class="row">
+							<div class="col-md-4 bottommargin">
+								<img data-animate="fadeInLeftBig" src="/HTML/images/services/iphone.png" alt="iPhone" class="center-block fadeInLeftBig animated">
+							</div>
+							<div class="col-md-4 col-sm-6 topmargin bottommargin">
+								<div class="col_full">
+									<div class="feature-box fbox-plain fbox-small fbox-dark">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-line-monitor"></i></a>
+										</div>
+										<h3>Responsive Layout</h3>
+										<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view the changes.</p>
+									</div>
+								</div>
+								<div class="col_full">
+									<div class="feature-box fbox-plain fbox-small fbox-dark">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-line-eye"></i></a>
+										</div>
+										<h3>Retina Ready Graphics</h3>
+										<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
+									</div>
+								</div>
+								<div class="col_full nobottommargin">
+									<div class="feature-box fbox-plain fbox-small fbox-dark">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-line-power"></i></a>
+										</div>
+										<h3>Powerful Performance</h3>
+										<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 topmargin bottommargin">
+								<div class="col_full">
+									<div class="feature-box fbox-plain fbox-small fbox-dark">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-line-layers"></i></a>
+										</div>
+										<h3>Premium Sliders Included</h3>
+										<p>Canvas included 20+ custom designed Slider Pages with Premium Sliders like Layer, Revolution, Swiper &amp; others.</p>
+									</div>
+								</div>
+
+								<div class="col_full">
+									<div class="feature-box fbox-plain fbox-small fbox-dark">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-line-star"></i></a>
+										</div>
+										<h3>Unlimited Color Options</h3>
+										<p>Change the Color Scheme of the Theme in a flash just by changing the 6-digit HEX code provided in the colors.php file.</p>
+									</div>
+								</div>
+
+								<div class="col_full nobottommargin">
+									<div class="feature-box fbox-plain fbox-small fbox-dark">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-line-anchor"></i></a>
+										</div>
+										<h3>CUSTOMIZABLE FONTS</h3>
+										<p>Use any Font you like from Google Web Fonts, Typekit or other Web Fonts. They will blend in perfectly.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="container bottommargin-lg">
+					<div class="col_one_third topmargin nobottommargin">
+						<h3>Short Overview.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
+						<div class="divider divider-short"><i class="icon-circle"></i></div>
+						<ul class="iconlist iconlist-large iconlist-color">
+							<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
+							<li><i class="icon-ok-sign"></i> Valid HTML5 &amp; CSS3 Semantics</li>
+							<li><i class="icon-ok-sign"></i> 100% Open Source &amp; Customizable</li>
+							<li><i class="icon-ok-sign"></i> Responsive &amp; Retina Devices Support</li>
+							<li><i class="icon-ok-sign"></i> Easy Embeddable Media &amp; Graphics</li>
+							<li><i class="icon-ok-sign"></i> Lifetime <strong>FREE</strong> Updates</li>
+						</ul>
+					</div>
+					<div class="col_two_third topmargin nobottommargin col_last">
+						<img src="/HTML/images/icons/macbook.png" alt="Macbook Video Underlay" style="position: absolute; top: 0; left: 0;">
+						<div class="landing-video">
+							<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe style="" src="http://player.vimeo.com/video/87701971" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid0"></iframe></div>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+
+
+
+				<div class="promo promo-dark promo-full promo-uppercase bottommargin">
+					<div class="container clearfix">
+						<h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span></h3>
+						<span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
+						<a href="#" class="button button-xlarge button-rounded">Start Now</a>
+					</div>
+				</div>
+
+
+
+				<div class="container bottommargin-lg topmargin-lg">
+					<div class="fancy-title title-dotted-border">
+						<h3>Video Featured Boxes</h3>
+					</div>
+
+					<div class="col_one_third">
+						<div class="feature-box center media-box fbox-bg">
+							<div class="fbox-media">
+								<div class="fluid-width-video-wrapper" style="padding-top: 56.2%;"><iframe src="//player.vimeo.com/video/88318922?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid0"></iframe></div>
+							</div>
+							<div class="fbox-desc">
+								<h3>Tons of Customizations<span class="subtitle">Do whatever you like</span></h3>
+								<p><a href="#" class="btn btn-default">Check Out</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col_one_third">
+						<div class="feature-box center media-box fbox-bg">
+							<div class="fbox-media">
+								<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
+							</div>
+							<div class="fbox-desc">
+								<h3>Unlimited Color Options<span class="subtitle">16.7+ Million on your fingertips</span></h3>
+								<p><a href="#" class="btn btn-default">Check Out</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col_one_third col_last">
+						<div class="feature-box center media-box fbox-bg">
+							<div class="fbox-media">
+								<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe frameborder="0" src="http://www.dailymotion.com/embed/video/x1jr2kd" allowfullscreen="" id="fitvid2"></iframe></div>
+							</div>
+							<div class="fbox-desc">
+								<h3>CUSTOMIZABLE FONTS<span class="subtitle">Unlimited Fonts &amp; Customizations</span></h3>
+								<p><a href="#" class="btn btn-default">Check Out</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark" style="margin-top: 0 !important;">
+			<div class="container">
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+					<div class="col_two_third">
+						<div class="widget clearfix">
+							<img src="/HTML/images/kaseya-footer-logo.svg" alt="" class="pull-left" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #43596e; width: 130px; margin-right: 20px;">
+							<div class="top-footer-text">
+								Providing software solutions that take the complexity out of IT management, because we know the success of your business depends upon managing IT more effectively, efficiently and securely.
+							</div>
+							<div class="line" style="margin: 30px 0;"></div>
+							<div class="row">
+								<div class="col-md-3 col-xs-6 bottommargin-sm widget_links">
+									<h5 class="footer-headings">Overview</h5>
+									<ul>
+										<li><a href="#">Products</a></li>
+										<li><a href="#">Solutions</a></li>
+										<li><a href="#">Customer Success</a></li>
+										<li><a href="#">Resources</a></li>
+										<li><a href="#">Company</a></li>
+										<li><a href="#">Let's Talk</a></li>
+									</ul>
+								</div>
+								<div class="col-md-3 col-xs-6 bottommargin-sm widget_links">
+									<h5 class="footer-headings">Products</h5>
+									<ul>
+										<li><a href="#">VSA</a></li>
+										<li><a href="#">BMS</a></li>
+										<li><a href="#">AuthAnvil</a></li>
+										<li><a href="#">Traverse</a></li>
+										<li><a href="#">365 Command</a></li>
+										<li><a href="#">Pricing</a></li>
+									</ul>
+								</div>
+								<div class="col-md-3 col-xs-6 bottommargin-sm widget_links">
+									<h5 class="footer-headings">Quick Links</h5>
+									<ul>
+										<li><a href="#">Kaseya Community</a></li>
+										<li><a href="#">Kaseya University</a></li>
+										<li><a href="#">Automation Exchange</a></li>
+										<li><a href="#">Knowledgebase</a></li>
+										<li><a href="#">Support</a></li>
+										<li><a href="#">Login</a></li>
+									</ul>
+								</div>
+								<div class="col-md-3 col-xs-6 bottommargin-sm widget_links">
+									<h5 class="footer-headings">Company</h5>
+									<ul>
+										<li><a href="#">About Kaseya</a></li>
+										<li><a href="#">Partners</a></li>
+										<li><a href="#">Pressroom</a></li>
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Careers</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col_one_third col_last" style="background: url('/HTML/images/world-map.png') no-repeat center bottom; background-size: 100%;">
+						<div class="widget clearfix" style="margin-bottom: 80px;">
+							<div class="row">
+								<div class="col-md-6 bottommargin-sm">
+									<div class="counter counter-small" style="color: #47b4e4;"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+									<h5 class="nobottommargin">ENDPOINTS MANAGED</h5>
+								</div>
+								<div class="col-md-6 bottommargin-sm">
+									<div class="counter counter-small" style="color: #47b4e4;"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+									<h5 class="nobottommargin">CLIENTS</h5>
+								</div>
+							</div>
+						</div>
+
+						<div class="footer-soc-widget clearfix" style="margin-bottom: 20px;">
+							<div class="row">
+								<div class="col-md-12 col-lg-offset-1 clearfix bottommargin-sm">
+									<a href="#" class="s-icon">
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="#" class="s-icon">
+										<i class="icon-twitter"></i>
+									</a>
+									<a href="#" class="s-icon">
+										<i class="icon-youtube"></i>
+									</a>
+									<a href="#" class="s-icon">
+										<i class="icon-gplus"></i>
+									</a>
+									<a href="#" class="s-icon">
+										<i class="icon-linkedin"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container clearfix">
+					<div class="col_half">
+						<div class="copyrights-menu copyright-links clearfix">
+							<a href="#">Legal</a>/<a href="#">Terms of Use</a>/<a href="#">Privacy Policy</a>/<a href="#">Sitemap</a>
+						</div>
+					</div>
+					<div class="col_half col_last tright">
+						<div class="fright clearfix">
+							Copyright &copy; 2017 Kaseya Limited
+						</div>
+					</div>
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>
