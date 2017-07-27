@@ -1,0 +1,743 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Lets Talk</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="aa.css">
+  <!-- <link rel="stylesheet" href="landingpg.css"> -->
+
+
+  <style type="text/css">
+    .lets-talk.mktoForm:before {
+      background: #ea4c3f;
+      border-radius: 4px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      content: attr(data-title);
+      color: #fff;
+      display: block;
+      font-size: 2em;
+      line-height: 28px;
+      padding: 15px 5px;
+      text-align: center;
+    }
+    .lets-talk.mktoForm:before {
+      background: #ea4c3f url('https://52.90.121.193/sites/default/files/web-images/lets-talk/talk-bubble.png') no-repeat 34% center !important;
+    }
+    .lets-talk.mktoForm form label.mktoLabel {
+      padding-bottom:0;
+    }
+    #mktoStyleLoaded {
+      /* css load detection, do not remove */
+      color:#123456;
+    }
+    .lets-talk.mktoForm fieldset {}
+    .lets-talk.mktoForm fieldset legend{}
+    .lets-talk.mktoForm input[type=text],
+    .lets-talk.mktoForm input[type=url],
+    .lets-talk.mktoForm input[type=email],
+    .lets-talk.mktoForm input[type=tel],
+    .lets-talk.mktoForm input[type=number],
+    .lets-talk.mktoForm input[type=date]{}
+
+    .lets-talk.mktoForm input[type=text],
+    .lets-talk.mktoForm input[type=url],
+    .lets-talk.mktoForm input[type=email],
+    .lets-talk.mktoForm input[type=tel],
+    .lets-talk.mktoForm input[type=number],
+    .lets-talk.mktoForm input[type=date],
+    .lets-talk.mktoForm textarea.mktoField,
+    .lets-talk.mktoForm select.mktoField {
+      padding:2px 3px !important;
+      font-size: 14px !important;
+    }
+    .lets-talk.mktoForm input[type=text]:focus,
+    .lets-talk.mktoForm input[type=url]:focus,
+    .lets-talk.mktoForm input[type=email]:focus,
+    .lets-talk.mktoForm input[type=tel]:focus,
+    .lets-talkmktoForm input[type=number]:focus,
+    .lets-talk.mktoForm input[type=date]:focus,
+    .lets-talk.mktoForm select.mktoField:focus,
+    .lets-talk.mktoForm textarea.mktoField:focus{
+
+    }
+    /* Add your custom CSS below */
+    .lets-talk.mktoForm input[type=text],
+    .lets-talk.mktoForm input[type=url],
+    .lets-talk.mktoForm input[type=email],
+    .lets-talk.mktoForm input[type=tel],
+    .lets-talk.mktoForm input[type=number],
+    .lets-talk.mktoForm input[type=date],
+    .lets-talk.mktoForm select.mktoField,
+    .lets-talk.mktoForm textarea.mktoField{
+      -webkit-appearance: none;
+      background-color:#fff;
+      line-height:1.5em;
+      color: #666;
+      border:1px solid #aeb0b6;
+      -webkit-border-radius: none !important;
+      -moz-border-radius: none !important;
+      border-radius: none !important;
+      padding:0.2em 0.3em;
+      box-shadow: none !important;
+      min-height:1.9em;
+      width: 100% !important;
+      margin-bottom: 5px;
+      padding-left: 15px !important;
+    }
+    form.lets-talk {
+      height: 482px !important;
+    }
+    .lets-talk.mktoForm,
+    .lets-talk fieldset > legend {
+      font-family: "Open Sans",sans-serif !important;
+    }
+    .lets-talk.mktoForm fieldset {
+      padding: 15px !important;
+      width: 50%;
+      margin-top: -11px;
+    }
+    .lets-talk.mktoForm .mktoFieldWrap {
+      float: none;
+    }
+    .lets-talk.mktoForm .mktoFormRow {
+      clear: none !important;
+    }
+    .lets-talk.mktoForm .mktoLabel {
+      padding-top: 0 !important;
+    }
+    .lets-talk.mktoForm form label.mktoLabel {
+      color: #666;
+      font-size: 1.15em;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    .lets-talk.mktoForm .mktoGutter,
+    .lets-talk.mktoForm .mktoOffset,
+    .lets-talk.mktoForm > div:nth-child(2) > fieldset > div:nth-child(2) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label,
+    .lets-talk.mktoForm > div:nth-child(2) > fieldset > div:nth-child(5) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label {
+      display: none;
+    }
+    .lets-talk fieldset > legend  {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    .lets-talk.mktoForm legend,
+    .lets-talk.mktoForm .mktoRequiredField label.mktoLabel {
+      display: block;
+      color: #666;
+      font-size: 1.15em;
+      font-weight: 600;
+      line-height: 1.5em;
+    }
+    .lets-talk.mktoForm input[type="checkbox"],
+    .lets-talk.mktoForm input[type="radio"] {
+      display: inline-block !important;
+      height: 0px !important;
+      margin: 0 !important;
+      width: 0px !important;
+      visibility: hidden !important;
+    }
+    .lets-talk.mktoForm .mktoRadioList,
+    .lets-talk.mktoForm .mktoCheckboxList {
+      padding: 0 !important;
+      float: left !important;
+    }
+    .lets-talk.mktoForm .mktoRadioList>label,
+    .lets-talk.mktoForm .mktoCheckboxList>label {
+      margin-left: 0 !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(2) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(3) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(4) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(5) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(6) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(7) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label {
+      font-size: 12px !important;
+      font-weight: 300 !important;
+      display: inline !important;
+      margin-left: 25px !important;
+      color: #666 !important;
+    }
+    .lets-talk.mktoForm .mktoCheckboxList {
+      width: 25px !important;
+      position: relative;
+      margin-top: -28px !important;
+    }
+    .lets-talk.mktoForm .mktoFormCol {
+      min-height: 1em !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(2) > fieldset > div:nth-child(9) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label {
+      margin-top: 15px;
+    }
+    .lets-talk.mktoForm #commentCapture {
+      height: 73px !important;
+      width: 100%;
+      border: 1px solid #c5c5c5 !important;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      max-width: 238px;
+    }
+    .lets-talk.mktoForm #commentCapture::-webkit-input-placeholder {
+      font-size: 12px !important;
+      font-weight: 300 !important;
+      padding: 5px 0 0 0px !important;
+      color: #666 !important;
+    }
+    .lets-talk.mktoForm #FirstName {
+      margin-top: -10px;
+    }
+    .lets-talk.mktoForm .optInPara {
+      font-size: .59em !important;
+      line-height: 9px !important;
+      margin-bottom: 0px !important;
+      font-weight: 600 !important;
+      margin-left: 23px;
+    }
+    .lets-talk.mktoForm > div.mktoButtonRow > span > button {
+    background-color: #ea4c3f;
+    color: #fdfdfd;
+    text-align: center;
+    border: none !important;
+    border-radius: 6px;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: "Helvetica Neue Bold","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 500;
+    outline: none;
+    padding: 16px 0;
+    text-transform: uppercase;
+    width: 240px !important;
+    font-size: 0.9em !important;
+    white-space: normal;
+    padding: 1em 0;
+    margin-left: 15px;
+    margin-top: -50px !important;
+  }
+  .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(9) > div.mktoFieldDescriptor.mktoFormCol,
+  .lets-talk.mktoForm > div:nth-child(3) > fieldset {
+    margin-bottom: 0 !important;
+  }
+  .lets-talk.mktoForm:before {
+    background: #ea4c3f url('https://52.90.121.193/sites/default/files/web-images/lets-talk/talk-bubble.png') no-repeat 33% center !important;
+  }
+  .lets-talk.mktoForm #Country {
+    border-radius: 0;
+    -webkit-appearance: none;
+    background: #fff url('http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png') no-repeat 95% center !important;
+  }
+
+  .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(9) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > div.mktoLogicalField.mktoCheckboxList.mktoHasWidth > label {
+    margin-top: 15px !important;
+  }
+
+  /*medium*/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(2) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(3) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(4) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(5) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(6) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(7) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label {
+      font-size: 10px !important;
+    }
+    .lets-talk.mktoForm .optInPara {
+      font-size: .60em !important;
+      line-height: 11px !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(9) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > div.mktoLogicalField.mktoCheckboxList.mktoHasWidth > label {
+      margin-top: 9px !important;
+    }
+    .lets-talk.mktoForm #commentCapture {
+      height: 85px !important;
+    }
+    .lets-talk.mktoForm > div.mktoButtonRow > span > button {
+      width: 190px !important;
+    }
+    .lets-talk.mktoForm #commentCapture::-webkit-input-placeholder,
+    .lets-talk.mktoForm #Country::-webkit-input-placeholder  {
+      color: #666 !important;
+    }
+    .lets-talk.mktoForm:before {
+      background: #ea4c3f url('https://52.90.121.193/sites/default/files/web-images/lets-talk/talk-bubble.png') no-repeat 29% center !important;
+    }
+  }
+  /*small*/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .lets-talk.mktoForm .mktoFormRow {
+      clear: both !important;
+    }
+    .lets-talk.mktoForm fieldset {
+      width: 100%;
+      margin-top: -9px !important;
+    }
+    label[for="isMSP"].mktoLabel {
+      max-width: 100% !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset {
+      margin-top: 0px !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(2) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(3) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(4) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(5) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(6) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(7) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label {
+      font-size: 14px !important;
+      margin-left: 0px !important;
+    }
+    .mktoForm>.mktoFormRow:nth-child(3) fieldset .mktoCheckboxList>label {
+      margin-top: 30px !important;
+    }
+    form.lets-talk {
+      height: 888px !important;
+    }
+    .lets-talk.mktoForm #commentCapture {
+      height: 73px !important;
+      width: 100%;
+      margin-top: -10px;
+      max-width: 100%;
+      margin-bottom: -8px;
+    }
+    .lets-talk.mktoForm .optInPara {
+      font-size: 10px !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(9) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > div.mktoLogicalField.mktoCheckboxList.mktoHasWidth > label {
+      margin-top: 9px !important;
+    }
+    .lets-talk.mktoForm:before {
+      background: #ea4c3f url('https://52.90.121.193/sites/default/files/web-images/lets-talk/talk-bubble.png') no-repeat 22% center !important;
+    }
+    .lets-talk.mktoForm > div.mktoButtonRow > span > button {
+      width: 300px !important;
+    }
+  }
+  /*xsmall*/
+  @media (min-width: 415px) and (max-width: 767px) {
+    .lets-talk.mktoForm:before {
+      background: #ea4c3f url('https://52.90.121.193/sites/default/files/web-images/lets-talk/talk-bubble.png') no-repeat 38% center !important;
+    }
+    .lets-talk.mktoForm #commentCapture {
+      max-width: 100%;
+    }
+    .lets-talk.mktoForm > div.mktoButtonRow > span > button {
+      width: 324px !important;
+    }
+  }
+  /*xxsmall*/
+  @media (min-width: 320px) and (max-width: 414px) {
+    .lets-talk.mktoForm .mktoFormRow {
+      clear: both !important;
+    }
+    .lets-talk.mktoForm {
+      text-shadow: none !important;
+    }
+    .lets-talk.mktoForm fieldset {
+      width: 100%;
+      margin-top: -9px !important;
+    }
+    label[for="isMSP"].mktoLabel {
+      max-width: 100% !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset {
+      margin-top: 0px !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(2) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(3) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(4) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(5) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(6) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label,
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(7) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > label {
+      font-size: 14px !important;
+      margin-left: 22px !important;
+      margin-top: 3px;
+    }
+    .mktoForm>.mktoFormRow:nth-child(3) fieldset .mktoCheckboxList>label {
+      margin-top: 10px !important;
+    }
+    form.lets-talk {
+      height: 860px !important;
+    }
+    .lets-talk.mktoForm #commentCapture {
+      height: 73px !important;
+      width: 100%;
+      margin-top: 10px;
+      max-width: 100%;
+      margin-bottom: 5px;
+    }
+    .lets-talk.mktoForm .optInPara {
+      font-size: 10px !important;
+    }
+    .lets-talk.mktoForm > div:nth-child(3) > fieldset > div:nth-child(9) > div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap > div.mktoLogicalField.mktoCheckboxList.mktoHasWidth > label {
+      margin-top: 9px !important;
+    }
+    .lets-talk.mktoForm:before {
+      background: #ea4c3f url('https://52.90.121.193/sites/default/files/web-images/lets-talk/talk-bubble.png') no-repeat 22% center !important;
+    }
+    .lets-talk.mktoForm > div.mktoButtonRow > span > button {
+      width: 300px !important;
+    }
+
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="landing-pg">
+    <div class="hero" style="background-size:cover;">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6">
+              <script src="//app-sj05.marketo.com/js/forms2/js/forms2.min.js"></script>
+              <form id="mktoForm_5897" class="lets-talk mktoForm form gray-lighter-bg bdr-radius-4" data-title="Let's Talk!" style="box-shadow: 0px 0px 20px rgba(0,0,0,0.5);"></form>
+              <script>MktoForms2.loadForm("//app-sj05.marketo.com", "596-INX-704", 5897);</script>
+          </div>
+
+          <!-- Let Talk Form -->
+          <div class="col-sm-6">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // <![CDATA[
+    var config = {
+      domainField: 'AuthAnvilHomeRealm',
+      url: 'https://app-sj05.marketo.com/index.php/leadCapture/save',
+      pods: [{
+          id: 'us-west',
+          host: 'system.my.authanvil.com',
+          suffix: '.my.authanvil.com',
+          name: 'US'
+        },
+        {
+          id: 'eu-west',
+          host: 'system.my.authanvil.eu',
+          suffix: '.my.authanvil.eu',
+          name: 'Europe'
+        }
+      ],
+      hidden: {
+        adSource: 'Website',
+        adKeyword: '',
+        formid: 3902,
+        munchkinId: '596-INX-704',
+        '_mkt_trk': '',
+        formVid: 3902,
+        lpId: 6871,
+        subId: 237,
+        lpurl: 'https://info.kaseya.com/AA-Trial-Program_Test-Page.html?cr={creative}&amp;kw={keyword}',
+        ret: 'https://authanvil.com/sign-up-completed/?email=',
+        kw: '',
+        cr: '',
+        searchstr: '',
+        _mkt_disp: ''
+      }
+    };
+    // ]]&gt;
+  </script>
+  <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.3.min.js">
+  </script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js">
+  </script>
+  <script>
+    var domainFieldName = config.domainField;
+    var domains = ["aol.com", "arnet.com.ar", "att.net", "bellsouth.net", "blueyonder.co.uk", "bt.com", "btinternet.com", "charter.net", "comcast.net", "comcast.net", "cox.net", "daum.net", "earthlink.net", "email.com", "facebook.com", "fastmail.fm",
+      "fibertel.com.ar", "free.fr", "freeserve.co.uk", "games.com", "gmail.com", "gmail.com", "gmx.com", "gmx.de", "gmx.fr", "gmx.net", "google.com", "googlemail.com", "hanmail.net", "hotmail.be", "hotmail.co.uk", "hotmail.com", "hotmail.com",
+      "hotmail.com.ar", "hotmail.com.mx", "hotmail.de", "hotmail.es", "hotmail.fr", "hush.com", "hushmail.com", "icloud.com", "inbox.com", "juno.com", "laposte.net", "lavabit.com", "list.ru", "live.be", "live.co.uk", "live.com", "live.com",
+      "live.com.ar", "live.com.mx", "live.de", "live.fr", "love.com", "mac.com", "mail.com", "mail.ru", "me.com", "msn.com", "msn.com", "nate.com", "naver.com", "neuf.fr", "ntlworld.com", "o2.co.uk", "online.de", "orange.fr", "orange.net",
+      "outlook.com", "pobox.com", "prodigy.net.mx", "qq.com", "rambler.ru", "rocketmail.com", "safe-mail.net", "sbcglobal.net", "sfr.fr", "sina.com", "sky.com", "skynet.be", "speedy.com.ar", "t-online.de", "talktalk.co.uk", "telenet.be",
+      "tiscali.co.uk", "tvcablenet.be", "verizon.net", "virgin.net", "virginmedia.com", "voo.be", "wanadoo.co.uk", "wanadoo.fr", "web.de", "wow.com", "ya.ru", "yahoo.co.id", "yahoo.co.in", "yahoo.co.jp", "yahoo.co.kr", "yahoo.co.uk", "yahoo.com",
+      "yahoo.com", "yahoo.com.ar", "yahoo.com.mx", "yahoo.com.ph", "yahoo.com.sg", "yahoo.de", "yahoo.fr", "yandex.com", "yandex.ru", "ygm.com", "ymail.com", "zoho.com"
+    ]
+
+    function debounce(fn, delay) {
+      var timer = null;
+      return function() {
+        var context = this,
+          args = arguments;
+        clearTimeout(timer);
+        timer = setTimeout(function() {
+          fn.apply(context, args);
+        }, delay);
+      };
+    }
+
+    function checkHomeRealm(realm, pod, callback) {
+      if (!realm) {
+        callback({
+          available: false,
+          message: ""
+        });
+        return;
+      }
+      $.get("https://" + pod.host + "/api/registration/" + realm, function(data) {
+        callback(data);
+      }, "json");
+    }
+
+    function addHiddenField(name, value, form) {
+      var existing = $('input[type=hidden]#' + name);
+      if (existing.length) {
+        existing.val(value);
+      } else {
+        $('<input type="hidden" />').attr('name', name).attr('id', name).val(value).appendTo(form);
+      }
+    }
+
+    function createPodList() {
+      var podList = $('.pod-list')
+      var podChecked = true;
+      config.pods.forEach(function(pod) {
+        var checkedState = podChecked ? 'checked' : "";
+        var radio = '<input type="radio" id="' + pod.id + '" name="AuthAnvilPOD" label="' + pod.name + '" value="' + pod.host + '" ' + checkedState + ' />';
+        var label = '<label for="' + pod.id + '" class="for-radio">' + pod.name + '<\/label>';
+        $(radio + label).appendTo(podList);
+        podChecked = false;
+      });
+      if (config.pods.length == 1) {
+        podList.hide();
+      }
+    }
+    var selectedPod = null;
+
+    function setPod(pod, form) {
+      selectedPod = pod;
+      $('#domain-suffix').text(selectedPod.suffix);
+    }
+    $().ready(function() {
+      var form = $('form#signup').attr('method', 'POST').attr('action', config.url);
+      setPod(config.pods[0], form);
+      Object.keys(config.hidden).forEach(function(k) {
+        addHiddenField(k, config.hidden[k], form);
+      });
+      $('[is-domain]')
+        .attr('id', domainFieldName)
+        .attr('name', domainFieldName)
+      $.validator.addMethod(
+        "validEmail",
+        function(value, element) {
+          var domain = value.replace(/.*@/, "").toLowerCase();
+          return domains.indexOf(domain) === -1;
+        },
+        "Email address can not be from a public service."
+      );
+      $.validator.addMethod(
+        "domain",
+        function(value, element) {
+          var method = "domain";
+          var validator = this,
+            previous = this.previousValue(element, method);
+          if (!this.settings.messages[element.name]) {
+            this.settings.messages[element.name] = {};
+          }
+          previous.originalMessage = previous.originalMessage || this.settings.messages[element.name][method];
+          this.settings.messages[element.name][method] = previous.message;
+          validator.startRequest(element);
+          checkHomeRealm(value, selectedPod, function(response) {
+            var valid = response.available;
+            errors = {};
+            if (valid) {
+              submitted = validator.formSubmitted;
+              validator.resetInternals();
+              validator.toHide = validator.errorsFor(element);
+              validator.formSubmitted = submitted;
+              validator.successList.push(element);
+              validator.invalid[element.name] = false;
+            } else {
+              message = response.message;
+              errors[element.name] = previous.message = message;
+              validator.invalid[element.name] = true;
+            }
+            validator.showErrors(errors);
+            setTimeout(function() {
+              previous.valid = valid;
+              validator.stopRequest(element, valid);
+            }, 500);
+          });
+          return "pending";
+        }
+      );
+      var rules = {
+        Company: "required",
+        FirstName: "required",
+        LastName: "required",
+        Email: {
+          required: true,
+          email: true,
+          validEmail: true
+        },
+        Phone: {
+          required: true
+        },
+        Country: "required",
+        isMSP: {
+          required: (function() {
+            return jQuery('[name="isMSP"]:checked').length === 0;
+          })()
+        }
+      };
+      rules[domainFieldName] = {
+        required: true,
+        domain: true
+      };
+      var messages = {
+        Company: "Your company name is required",
+        FirstName: "Your first name is required",
+        LastName: "Your last name is required",
+        Email: {
+          email: "Please enter a valid email address"
+        },
+        Phone: "Please enter a valid phone number",
+        Country: "Please select your Country from the list",
+        isMSP: {
+          required: "Please select an option"
+        }
+      };
+      messages[domainFieldName] = {
+        required: 'A company URL is required',
+        domain: 'Invalid company URL'
+      };
+      var debounceKey = debounce(function(element, event) {
+        this.element(element);
+      }, 500);
+      var vd = $("#signup").validate({
+        rules: rules,
+        messages: messages,
+        onkeyup: function(element, event) {
+          var c = String.fromCharCode(event.keyCode);
+          var isWordCharacter = c.match(/\w/);
+          var isBackspaceOrDelete = (event.keyCode == 8 || event.keyCode == 46);
+          if (isWordCharacter || isBackspaceOrDelete) {
+            var f = debounceKey.call(this, element, event);
+          }
+        },
+        errorPlacement: function(error, element) {
+          if (element.attr('name') === domainFieldName || element.attr('name') === 'isMSP') {
+            error.insertAfter($(element).parent());
+          } else {
+            error.insertAfter(element);
+          }
+        },
+        onsubmit: false,
+        submitHandler: function(form) {
+          return false;
+        }
+      });
+      var emailChange = function(e) {
+        setTimeout(function() {
+          var domain = "";
+          var val = e.target.value;
+          addHiddenField('ret', config.hidden['ret'] + val, form);
+          if (val && val.indexOf('@') > 0) {
+            var emailDomain = e.target.value.replace(/.*@/, "").toLowerCase().split('.');
+            if (emailDomain.length > 0 && emailDomain[0]) {
+              domain = emailDomain[0];
+              $('#' + domainFieldName).val(domain);
+              var dmElement = vd.element('#' + domainFieldName)
+              if (dmElement && dmElement.validate) {
+                dmElement.validate();
+              }
+            }
+          }
+        }, 0);
+      };
+      $('#Email').keypress(emailChange);
+      $('#Email').blur(emailChange);
+      createPodList(form);
+      $('input[name=AuthAnvilPOD]').change(function(e) {
+        var pod = null;
+        config.pods.forEach(function(p) {
+          if (e.target.id === p.id) {
+            pod = p;
+          }
+        });
+        if (pod) {
+          setPod(pod, form);
+        }
+      });
+      $('input').on('blur keyup', function() {
+        if (vd.valid()) {
+          $('.btn-submit').prop('disabled', false);
+        } else {
+          $('.btn-submit').prop('disabled', 'disabled');
+        }
+      });
+      $("#" + domainFieldName).keypress(function(e) {
+        if ("abcdefghijklmnopqrstuvwxyz0123456789-".indexOf(String.fromCharCode(e.which)) < 0) {
+          return false;
+        }
+      });
+      $('.btn-submit').click(function(e) {
+        if (form.valid()) {
+          form.submit();
+          $("fieldset").prop("disabled", true);
+          $(".btn-submit").prop("disabled", true);
+        }
+        e.preventDefault();
+      });
+    });
+  </script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+  </script>
+  <script>
+    $(document).ready(function() {
+      var feature, slideDown, activeFeature;
+      $('.features li a').on({
+        mouseenter: function() {
+          if (slideDown !== undefined) {
+            clearTimeout(slideDown);
+            $(activeFeature).removeClass('slideUp');
+          }
+          $('.features li a').removeClass('active');
+          $(this).addClass('active');
+          feature = $('span', this).attr('data-desc');
+          $('#mfa').css('opacity', '0');
+          $(feature).addClass('slideUp').css('opacity', '1');
+          activeFeature = feature;
+        },
+        mouseout: function(e) {
+          slideDown = setTimeout(function() {
+            $(feature).removeClass('slideUp').css('opacity', '0.1');
+            $(e.currentTarget).removeClass('active');
+            $($('.features li a')[0]).addClass('active');
+            $('#mspprotect').animate({
+              opacity: 1
+            }, 300);
+          }, 2000);
+        },
+        click: function(e) {
+          e.preventDefault();
+        }
+      });
+      $('a[href*="try-it-free"]').on('click', function() {
+        $('html, body').animate({
+          scrollTop: $('.hero').offset().top
+        }, 500);
+        return false;
+      });
+      $(".video").click(function() {
+        var theModal = $(this).data("target");
+        $(theModal + ' button.close').click(function() {
+          $(theModal).hide();
+        });
+      });
+    })
+  </script>
+</body>

@@ -1,16 +1,4 @@
 /*-----------------------------------------------------------------------------------
-
-    Theme Name: Canvas
-    Theme URI: http://themes.semicolonweb.com/html/canvas
-    Description: The Multi-Purpose Template
-    Author: SemiColonWeb
-    Author URI: http://themeforest.net/user/semicolonweb
-    Version: 4.1.1
-
-    LESS Stylesheet
-
------------------------------------------------------------------------------------*/
-/*-----------------------------------------------------------------------------------
 	typography.scss
 -----------------------------------------------------------------------------------*/
 /* line 4, ../scss/_typography.scss */
@@ -17048,9 +17036,7 @@ body:not(.no-transition) #wrapper {
   }
 }
 /*-----------------------------------------------------------------------------------
-
     Additional Styles
-
 -----------------------------------------------------------------------------------*/
 /* === Mobile First - Bootstrap ready === */
 /* line 2, ../scss/_component/_ezspace.scss */
