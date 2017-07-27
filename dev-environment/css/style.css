@@ -26738,7 +26738,7 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: url('/images/../images/pattern2.png?1500673733') repeat;
+  background: url('/images/../images/pattern2.png?1500674828') repeat;
 }
 
 /* line 331, ../scss/_component/_sliders.scss */
@@ -26881,7 +26881,7 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
   top: 0;
   left: 0;
   z-index: 5;
-  background: transparent url('/images/../images/grid.png?1500673733') repeat;
+  background: transparent url('/images/../images/grid.png?1500674827') repeat;
   -webkit-backface-visibility: hidden;
 }
 
@@ -35158,6 +35158,357 @@ a.button.button-3d.button-large.button-rounded.button-amber.lets-talk-btn {
   margin-top: 25px;
 }
 
+/* line 7, ../scss/_holt.scss */
+.feature-box.fbox-center:not(.fbox-bg) h3:after {
+  border-top: none;
+}
+
+/* line 11, ../scss/_holt.scss */
+.i-alt {
+  background-image: url(/themes/kaseya/images/icons/iconalt.svg);
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+/* line 17, ../scss/_holt.scss */
+.ui-widget-content, .ui-widget-header {
+  border: none;
+  background: none;
+  color: default;
+}
+
+/* line 22, ../scss/_holt.scss */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: none;
+  background: none;
+  color: default;
+}
+
+/* line 28, ../scss/_holt.scss */
+.pricing-box.pricing-extended {
+  background-color: #FFF;
+  text-align: left;
+  min-height: 250px;
+}
+
+/* line 34, ../scss/_holt.scss */
+.si-share.resources {
+  margin: 0 0 20px 0;
+}
+
+/* line 38, ../scss/_holt.scss */
+h3.resources {
+  margin: 10px 0 !important;
+  text-transform: none;
+}
+
+/* line 43, ../scss/_holt.scss */
+.landing-wide-form.resc {
+  padding: 30px;
+  margin-right: 100px;
+}
+
+/* line 52, ../scss/_holt.scss */
+.col-md-6.col-xs-12.resc-hero-img {
+  z-index: 1;
+  margin-top: -470px;
+}
+
+/* line 57, ../scss/_holt.scss */
+.title-block.resc-ty {
+  margin-top: 38%;
+}
+
+/* line 62, ../scss/_holt.scss */
+.fancy-title.resc-ty p {
+  font-size: 22px;
+  margin-top: 4px;
+  color: #34495e;
+  font-weight: 300;
+}
+
+/* line 70, ../scss/_holt.scss */
+.fw-cta-bg {
+  background-image: url("../images/pattern/2color-split-bg-3x.gif");
+  background-position: center;
+  background-size: cover 100%;
+  background-repeat: repeat-y;
+}
+
+/* line 77, ../scss/_holt.scss */
+.acctitle, .acctitlec {
+  color: #34495e;
+}
+
+/* line 81, ../scss/_holt.scss */
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small {
+  color: #34495e;
+}
+
+/* line 85, ../scss/_holt.scss */
+#page-title h1, #page-title span, #page-title.page-title-mini h1, .entry-title h2 a, .feature-box h3, .feature-box p, .breadcrumb a, .portfolio-desc h3 a, .ipost .entry-title h3 a, .ipost .entry-title h4 a {
+  color: #34495e;
+}
+
+/* line 89, ../scss/_holt.scss */
+.breadcrumb > .active {
+  color: #47b4e4;
+}
+
+/* line 93, ../scss/_holt.scss */
+.kas-contact-form {
+  background-color: rgba(245, 245, 245, 0.9);
+  padding: 30px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+/* line 98, ../scss/_holt.scss */
+.kas-contact-form p {
+  color: #34495e;
+}
+
+/* line 103, ../scss/_holt.scss */
+.orange-top-form {
+  position: relative;
+  background-color: #ffb300;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+/* line 109, ../scss/_holt.scss */
+.orange-top-form h1 {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+/* line 115, ../scss/_holt.scss */
+.orange-top-form p {
+  margin-bottom: 0;
+}
+
+/* line 120, ../scss/_holt.scss */
+.checkbox {
+  display: inline-block;
+}
+/* line 122, ../scss/_holt.scss */
+.checkbox p {
+  font-size: 13px;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* line 129, ../scss/_holt.scss */
+.checkbox label:after,
+.radio label:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 136, ../scss/_holt.scss */
+.checkbox .cr,
+.radio .cr {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #a9a9a9;
+  border-radius: .25em;
+  width: 1.3em;
+  height: 1.3em;
+  float: left;
+  margin-right: .5em;
+}
+
+/* line 148, ../scss/_holt.scss */
+.radio .cr {
+  border-radius: 50%;
+}
+
+/* line 152, ../scss/_holt.scss */
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+  position: absolute;
+  font-size: .8em;
+  line-height: 0;
+  top: 50%;
+  left: 20%;
+}
+
+/* line 161, ../scss/_holt.scss */
+.radio .cr .cr-icon {
+  margin-left: 0.04em;
+}
+
+/* line 165, ../scss/_holt.scss */
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+  display: none;
+}
+
+/* line 170, ../scss/_holt.scss */
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+  transform: scale(3) rotateZ(-20deg);
+  opacity: 0;
+  transition: all .3s ease-in;
+}
+
+/* line 177, ../scss/_holt.scss */
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+  transform: scale(1) rotateZ(0deg);
+  opacity: 1;
+}
+
+/* line 183, ../scss/_holt.scss */
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+  opacity: .5;
+}
+
+/* line 188, ../scss/_holt.scss */
+.checkbox label {
+  padding-left: 0px;
+}
+
+/* line 192, ../scss/_holt.scss */
+.col-md-6.kas-contact {
+  padding-left: 0;
+}
+
+/* line 196, ../scss/_holt.scss */
+.bubble:after {
+  bottom: -14px;
+}
+
+/* line 200, ../scss/_holt.scss */
+.bubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #ffb300 transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -15px;
+  left: 65px;
+}
+
+/* line 213, ../scss/_holt.scss */
+.header-extras {
+  float: right;
+  margin: 100px 0 0;
+}
+
+/* line 218, ../scss/_holt.scss */
+.nav-tabs {
+  border-bottom: 1px solid #dddddd;
+  width: 55%;
+}
+
+/* line 223, ../scss/_holt.scss */
+.location-office {
+  margin-top: 40px;
+}
+
+/* line 227, ../scss/_holt.scss */
+.kas-swatch {
+  padding: 0 15px 15px 0;
+}
+/* line 229, ../scss/_holt.scss */
+.kas-swatch .kas-color {
+  height: 80px;
+  content: "";
+}
+/* line 233, ../scss/_holt.scss */
+.kas-swatch .kas-swatch-content {
+  border: 1px solid #e5e5e5;
+}
+/* line 235, ../scss/_holt.scss */
+.kas-swatch .kas-swatch-content h5 {
+  padding-top: 10px;
+}
+/* line 238, ../scss/_holt.scss */
+.kas-swatch .kas-swatch-content p {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding: 0 10px;
+}
+/* line 243, ../scss/_holt.scss */
+.kas-swatch .kas-swatch-content p span {
+  color: #ccc;
+}
+
+/* line 250, ../scss/_holt.scss */
+.resc-hdr {
+  color: #fff;
+}
+/* line 252, ../scss/_holt.scss */
+.resc-hdr h2 {
+  color: #fff;
+}
+/* line 255, ../scss/_holt.scss */
+.resc-hdr p {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 262, ../scss/_holt.scss */
+  .title-block.resc-ty {
+    margin-top: 0;
+  }
+
+  /* line 265, ../scss/_holt.scss */
+  .landing-wide-form.resc {
+    padding: 30px;
+    margin-right: 0;
+  }
+
+  /* line 269, ../scss/_holt.scss */
+  .col-md-6.col-xs-12.resc-hero-img {
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 767px) and (max-width: 991px) {
+  /* line 277, ../scss/_holt.scss */
+  .col-md-6.col-xs-12.resc-hero-img {
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 285, ../scss/_holt.scss */
+  .fw-cta-bg {
+    background-image: none;
+    background-color: #34495e;
+  }
+
+  /* line 289, ../scss/_holt.scss */
+  .col-md-6.fw-cta {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 293, ../scss/_holt.scss */
+  .nav-tabs {
+    border-bottom: 1px solid #dddddd;
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 300, ../scss/_holt.scss */
+  .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    font-size: 11px;
+  }
+}
 /* --------------------------------------------------------------
 
 	Custom Sass Here
