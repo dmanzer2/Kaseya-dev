@@ -23254,7 +23254,7 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: url('/images/../images/pattern2.png?1500673733') repeat;
+  background: url('/images/../images/pattern2.png?1500674828') repeat;
 }
 
 /* line 331, ../scss/_component/_sliders.scss */
@@ -23397,7 +23397,7 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
   top: 0;
   left: 0;
   z-index: 5;
-  background: transparent url('/images/../images/grid.png?1500673733') repeat;
+  background: transparent url('/images/../images/grid.png?1500674827') repeat;
   -webkit-backface-visibility: hidden;
 }
 
@@ -31667,6 +31667,11 @@ body:not(.device-touch) .social-icon i {
   font-style: italic;
   font-weight: 400;
   color: #999;
+}
+
+/* line 3, ../scss/_holt.scss */
+a.button.button-3d.button-large.button-rounded.button-amber.lets-talk-btn {
+  margin-top: 25px;
 }
 
 /* --------------------------------------------------------------
